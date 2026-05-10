@@ -55,3 +55,12 @@ export const getHotels =  async (req:any, res:any) =>{
         })
     }
 }
+
+
+export const getHealth = async (req:any,res:any) =>{
+    res.json({
+    supplierA: "UP",
+    supplierB: "UP",
+    redis: redisClient.isOpen ? "UP" : "DOWN",
+    })
+}

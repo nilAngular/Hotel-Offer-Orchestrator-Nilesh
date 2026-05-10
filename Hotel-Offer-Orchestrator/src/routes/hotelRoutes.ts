@@ -13,6 +13,8 @@ router.get("/supplierB/hotels", (req, res) => {
     res.json(supplierBHotels);
 });
 
+router.get("/health", hotelController.getHealth);
+
 router.get("/api/hotels", hotelController.getHotels);
 
 
