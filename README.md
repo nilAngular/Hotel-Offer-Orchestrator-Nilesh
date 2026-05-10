@@ -50,7 +50,7 @@ src/
 
 ```bash
 git clone <repo-url>
-cd hotel-offer-orchestrator
+cd Hotel-Offer-Orchestrator
 ```
 
 ---
